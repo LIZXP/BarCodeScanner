@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import VideoCameraComponent from './Components/VideoCameraComponent/VideoCameraComponent';
+import VideoCameraComponent from './components/BarcodeComponent/VideoCameraComponent';
 
 function App() {
   const [QRCode, setQRCode] = useState(null);
